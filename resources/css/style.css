@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.branding {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+#logo {
+  border-right: solid 1px MediumAquamarine;
+}
+
+#name {
+  padding-left: 10px;
+  color: MediumAquamarine;
+}
+
+.header .nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav ul li a {
+  font-weight: bold;
+  color: black;
+}
