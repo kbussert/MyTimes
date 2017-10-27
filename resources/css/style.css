@@ -128,7 +128,7 @@ p {
 }
 
 #camera {
-  background-image: url(./resources/images/img-story-3.png);
+  background-image: image(/resources/images/img-story-3.png);
 }
 
 .CenterCol {
@@ -139,7 +139,7 @@ p {
 }
 
 #cats {
-  background-image: url(./resources/images/img-story-1.png);
+  background-image: image(resources/images/img-story-1.png);
 }
 
 .RightCol {
