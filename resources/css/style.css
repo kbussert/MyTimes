@@ -10,12 +10,17 @@
   position: fixed;
   z-index: 20;
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: white;
+  z-index: 20;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .branding {
@@ -58,9 +63,10 @@ body {
 
 .main {
   display: flex;
-  justify-content: flex-start;
-  margin: 0 50px;
-  padding: 100px 0 0 0;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 75px 0 0 0;
+  z-index: 10;
 }
 
 .LeftCol {
@@ -163,4 +169,64 @@ p {
   color: DimGray;
   border-bottom: solid black 1px;
   padding: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  padding: 70px 0;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+}
+
+.footerName p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  margin-right: 15px;
+}
+
+.footerNav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerTop ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footerTop ul li {
+  margin: 0 15px;
+  padding: 0 15px;
+  color: black;
+}
+
+.footerTop ul li a {
+  color: black;
+}
+
+.footerBottom p {
+  margin: 0;
+  padding: 0;
 }
