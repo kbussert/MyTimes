@@ -116,7 +116,7 @@ p {
 
 #mainStory {
   display: flex;
-  background-image: url(~/resources/images/img-story-main.png);
+  background-image: url(https://kbussert.github.io/MyTimes/resources/images/img-story-main.png);
   text-align: left;
   font-size: 40px;
   margin-top: 0;
