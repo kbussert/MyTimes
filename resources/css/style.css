@@ -94,6 +94,10 @@ body {
   margin-bottom: 0;
 }
 
+h1 {
+  margin-bottom: auto;
+}
+
 .large {
   display: flex;
   flex-direction: column;
