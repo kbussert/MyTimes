@@ -116,19 +116,19 @@ p {
 
 #mainStory {
   display: flex;
-  background-image: url(/Users/kb186036/WebProjects/MyTimes/resources/images/img-story-main.png);
+  background-image: url(./resources/images/img-story-main.png);
   text-align: left;
   font-size: 40px;
   margin-top: 0;
 }
 
 #sunset {
-  background-image: url(/Users/kb186036/WebProjects/MyTimes/resources/images/img-story-2.png);
+  background-image: url(./resources/images/img-story-2.png);
   background-repeat: repeat;
 }
 
 #camera {
-  background-image: url(/Users/kb186036/WebProjects/MyTimes/resources/images/img-story-3.png);
+  background-image: url(./resources/images/img-story-3.png);
 }
 
 .CenterCol {
@@ -139,7 +139,7 @@ p {
 }
 
 #cats {
-  background-image: url(/Users/kb186036/WebProjects/MyTimes/resources/images/img-story-1.png);
+  background-image: url(./resources/images/img-story-1.png);
 }
 
 .RightCol {
