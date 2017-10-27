@@ -123,7 +123,7 @@ p {
 }
 
 #sunset {
-  background-image: url(./resources/images/img-story-2.png);
+  background-image: image(./resources/images/img-story-2.png);
   background-repeat: repeat;
 }
 
